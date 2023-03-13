@@ -406,17 +406,23 @@ a {
     margin-top: -94px;
   }
 }
+.our_work__title {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 27px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
 .our_work__items {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
 @media screen and (min-width: 1200px) {
   .our_work__items {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
